@@ -1,17 +1,17 @@
-let country = "Nigeria";
-let continent = "Afican continent";
-let population = 230000000;
-console.log(country);
-console.log(continent);
-console.log(population);
+// let country = "Nigeria";
+// let continent = "Afican continent";
+// let population = 230000000;
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
-let isLand = false;
+// let isLand = false;
 let language;
-console.log(typeof isLand);
-console.log(typeof population);
-console.log(typeof country);
+// console.log(typeof isLand);
+// console.log(typeof population);
+// console.log(typeof country);
 
-Const language = "English";
+language = "English";
 const country = "Nigeria";
 const continent = "African continent";
 const isLand = false;
@@ -52,3 +52,9 @@ if (population > 33000000) {
     `${country}'s population is ${33000000 - population} bellow average`
   );
 }
+
+console.log("9" - "5");
+console.log("19" - "13" + "17");
+console.log("19" - "13" + 17);
+console.log("123" < 57);
+console.log(5 + 6 + "4" + 9 - 4 - 2);
